@@ -1,6 +1,4 @@
 target/
-.env
-.env.local
 *.wasm
 # Prebuilt fixtures for the upgrade tests: `env.deployer()
 # .upload_contract_wasm` needs real wasm bytes, which cargo does not produce
@@ -11,3 +9,5 @@ target/
 .stellar/
 contracts/*/test_snapshots/*
 !contracts/*/test_snapshots/events/
+config.bat
+node_modules
